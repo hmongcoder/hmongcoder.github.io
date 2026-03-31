@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <header>
+ <div class="profile-container">
+  <img src="me.jpg" id="profile" alt="profile">
+     <!-- Modal -->
+   <div id="modal">
+    <span id="close">&times;</span>
+    <img id="modal-img">
+  </div>
+</div>
+
+    <h1>Hello, I'm Lao Lee</h1>
+    <p>Welcome to my personal website</p>
+  </header>
+
+  <nav>
+    <a href="#home">🏠Home</a>
+    <a href="#about">🙋‍♂️About Me</a>
+    <a href="#photos">🖼️Photos & 🎞️Videos</a>
+    <a href="#contact">📞Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>
+      This is my personal website. Here you can learn more about me, see my photos and videos,
+      and contact me easily.
+    </p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      My name is Lao Lee. I am interested in technology, programming, and learning new skills.
+      I enjoy building websites and improving my knowledge step by step.
+    </p>
+  </section>
+
+  <section id="photos" class="photos">
+    <h2>Photos & Videos</h2>
+    <p>Here are some of my photos:</p>
+    
+    <!-- Replace image names with your own -->
+    <img src="Myimagelaolee.jpg.png" alt="My photo 1">
+    <img src="me.jpg" alt="My photo 2">
+
+
+    <p>My video:</p>
+    <!-- Replace video file with your own -->
+    <video width="320" controls>
+      <source src="Talk_about_IT.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- CONTACT -->
+    <section id="contact" class="card anim">
+    <h2 class="text-2x1 font-bold mb-4">Contact</h2>
+
+    <p id="cont">
+    Email:
+    <a href="mailto:hlauli1172007@gmail.com" class="text-blue-500 underline">
+    hlauli1172007@gmail.com
+    </a>
+    </p>
+
+    <p>
+    Phone:
+    <a href="https://wa.me/8562095873312" target="_blank" class="text-blue-500 underline">
+    02095873312
+    </a>
+    </p>
+
+    <div class="button-group">
+    <a href="https://facebook.com" target="_blank" class="btn facebook">Facebook</a>
+    <a href="https://github.com" target="_blank" class="btn github">GitHub</a>
+    <a href="https://youtube.com" target="_blank" class="btn youtube">YouTube</a>
+    </div>
+    </section>
+    </div>
+
+  <footer>
+    <p>© 2026 My Personal Website</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>

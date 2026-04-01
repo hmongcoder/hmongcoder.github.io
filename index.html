@@ -95,6 +95,18 @@
     <a href="https://facebook.com" target="_blank" class="btn facebook">Facebook</a>
     <a href="https://github.com" target="_blank" class="btn github">GitHub</a>
     <a href="https://youtube.com" target="_blank" class="btn youtube">YouTube</a>
+      
+    <button onclick="exipage()">Click close</button>
+    <script>
+      function exipage(){
+        let result = confirm("Are you sure you want to leave this web page ?")
+        if(result == false){
+          alert("Welcome back🤗")
+        }else{
+          window.close();
+        }
+      }
+    </script>
     </div>
     </section>
     </div>

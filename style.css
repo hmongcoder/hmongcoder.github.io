@@ -180,6 +180,27 @@
   opacity: 0.8;
 }
 
+ button{
+      background: linear-gradient(45deg, #45ca76, #1d8948);
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 15px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    button:hover{
+      transform: scale(1.1);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    button:active{
+      transform: scale(0.95);
+    }
+
     footer {
       text-align: center;
       padding: 15px;
